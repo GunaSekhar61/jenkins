@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: myvm
+  vmImage: my10
 
 steps:
 - script: python hello.py
