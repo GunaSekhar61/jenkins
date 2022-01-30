@@ -11,7 +11,7 @@ pool:
   vmImage: vm10
 
 steps:
-- script: python hello.py
+- script: %path%
   displayName: 'Run a one-line script'
 
 - script: |
