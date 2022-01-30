@@ -9,8 +9,7 @@ trigger:
 pool:
   name: v10
   vmImage: vm10
-
-
+steps:
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
